@@ -10,7 +10,7 @@ iRay  | Programming
 
 
 
-local Release = "1.5.1"
+local Release = loadstring(game:HttpGet('https://raw.githubusercontent.com/JBFarme/conexware/refs/heads/main/info'))()
 local NotificationDuration = 6.5
 local RayfieldFolder = "Rayfield"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
